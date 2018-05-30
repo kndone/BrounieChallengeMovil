@@ -22,35 +22,36 @@ class BioTouchViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func authWithTouchID(_ sender: Any) {
-        let context = LAContext()
+        let contexto = LAContext()
         var error: NSError?
         
-        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
-            let reason = "Identify yourself!"
+        if contexto.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = "¡Por favor identificate!"
             
-            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {
+            contexto.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {
                 [unowned self] success, authenticationError in
                 
                 DispatchQueue.main.async {
                     if success {
-                        self.showAlertController("User Authenticated. Welcome!")
+                        self.performSegue(withIdentifier: "scanner", sender: nil)
                     } else {
-                        let ac = UIAlertController(title: "Authentication failed", message: "Sorry!", preferredStyle: .alert)
+                        let ac = UIAlertController(title: "La autenticación ha fallado", message: "¡Opps!", preferredStyle: .alert)
                         ac.addAction(UIAlertAction(title: "OK", style: .default))
                         self.present(ac, animated: true)
                     }
                 }
             }
         } else {
-            let ac = UIAlertController(title: "Touch ID not available", message: "Your device is not configured for Touch ID.", preferredStyle: .alert)
+            let ac = UIAlertController(title: "El Touch ID no está disponible", message: "Tu dispositivo no está configurado con Touch ID.", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "OK", style: .default))
             present(ac, animated: true)
         }
     }
-    func showAlertController(_ message: String) {
+    func mostrarAlertaExito(_ message: String) {
         let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertController, animated: true, completion: nil)
+        
     }
     
 }

@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1773B27320BDF91C00C6990B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B27220BDF91C00C6990B /* AppDelegate.swift */; };
-		1773B27520BDF91C00C6990B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B27420BDF91C00C6990B /* FirstViewController.swift */; };
-		1773B27720BDF91C00C6990B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B27620BDF91C00C6990B /* SecondViewController.swift */; };
+		1773B27520BDF91C00C6990B /* VacationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B27420BDF91C00C6990B /* VacationsViewController.swift */; };
+		1773B27720BDF91C00C6990B /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B27620BDF91C00C6990B /* CheckInViewController.swift */; };
 		1773B27A20BDF91C00C6990B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773B27820BDF91C00C6990B /* Main.storyboard */; };
 		1773B27C20BDF91C00C6990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1773B27B20BDF91C00C6990B /* Assets.xcassets */; };
 		1773B27F20BDF91C00C6990B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773B27D20BDF91C00C6990B /* LaunchScreen.storyboard */; };
 		1773B28A20BDF91C00C6990B /* Timing_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B28920BDF91C00C6990B /* Timing_MeTests.swift */; };
 		1773B29520BDF91C00C6990B /* Timing_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B29420BDF91C00C6990B /* Timing_MeUITests.swift */; };
 		1773B2A320BE044E00C6990B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B2A220BE044E00C6990B /* LoginViewController.swift */; };
-		1773B2A520BE0DE100C6990B /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B2A420BE0DE100C6990B /* ScanViewController.swift */; };
+		1773B2A520BE0DE100C6990B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B2A420BE0DE100C6990B /* ScannerViewController.swift */; };
 		1773B2A720BE1E3800C6990B /* BioTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773B2A620BE1E3800C6990B /* BioTouchViewController.swift */; };
+		1790737720BE4C8300E99596 /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790737620BE4C8300E99596 /* PermissionsViewController.swift */; };
+		1790737920BE4DC200E99596 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790737820BE4DC200E99596 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,8 @@
 /* Begin PBXFileReference section */
 		1773B26F20BDF91C00C6990B /* Timing Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timing Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1773B27220BDF91C00C6990B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1773B27420BDF91C00C6990B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1773B27620BDF91C00C6990B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1773B27420BDF91C00C6990B /* VacationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationsViewController.swift; sourceTree = "<group>"; };
+		1773B27620BDF91C00C6990B /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		1773B27920BDF91C00C6990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1773B27B20BDF91C00C6990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1773B27E20BDF91C00C6990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +55,10 @@
 		1773B29420BDF91C00C6990B /* Timing_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timing_MeUITests.swift; sourceTree = "<group>"; };
 		1773B29620BDF91D00C6990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1773B2A220BE044E00C6990B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1773B2A420BE0DE100C6990B /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		1773B2A420BE0DE100C6990B /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		1773B2A620BE1E3800C6990B /* BioTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTouchViewController.swift; sourceTree = "<group>"; };
+		1790737620BE4C8300E99596 /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
+		1790737820BE4DC200E99596 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				1773B27220BDF91C00C6990B /* AppDelegate.swift */,
-				1773B27420BDF91C00C6990B /* FirstViewController.swift */,
+				1773B27420BDF91C00C6990B /* VacationsViewController.swift */,
 				1773B2A220BE044E00C6990B /* LoginViewController.swift */,
-				1773B27620BDF91C00C6990B /* SecondViewController.swift */,
+				1773B27620BDF91C00C6990B /* CheckInViewController.swift */,
 				1773B27820BDF91C00C6990B /* Main.storyboard */,
 				1773B27B20BDF91C00C6990B /* Assets.xcassets */,
 				1773B27D20BDF91C00C6990B /* LaunchScreen.storyboard */,
 				1773B28020BDF91C00C6990B /* Info.plist */,
-				1773B2A420BE0DE100C6990B /* ScanViewController.swift */,
+				1773B2A420BE0DE100C6990B /* ScannerViewController.swift */,
 				1773B2A620BE1E3800C6990B /* BioTouchViewController.swift */,
+				1790737620BE4C8300E99596 /* PermissionsViewController.swift */,
+				1790737820BE4DC200E99596 /* LogoutViewController.swift */,
 			);
 			path = "Timing Me";
 			sourceTree = "<group>";
@@ -271,11 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1790737720BE4C8300E99596 /* PermissionsViewController.swift in Sources */,
 				1773B2A320BE044E00C6990B /* LoginViewController.swift in Sources */,
-				1773B27720BDF91C00C6990B /* SecondViewController.swift in Sources */,
-				1773B2A520BE0DE100C6990B /* ScanViewController.swift in Sources */,
+				1773B27720BDF91C00C6990B /* CheckInViewController.swift in Sources */,
+				1773B2A520BE0DE100C6990B /* ScannerViewController.swift in Sources */,
 				1773B27320BDF91C00C6990B /* AppDelegate.swift in Sources */,
-				1773B27520BDF91C00C6990B /* FirstViewController.swift in Sources */,
+				1773B27520BDF91C00C6990B /* VacationsViewController.swift in Sources */,
+				1790737920BE4DC200E99596 /* LogoutViewController.swift in Sources */,
 				1773B2A720BE1E3800C6990B /* BioTouchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

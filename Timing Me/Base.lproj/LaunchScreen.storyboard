@@ -27,7 +27,7 @@
                                 <rect key="frame" x="57" y="81" width="261" height="253"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timing Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEe-6C-vxD">
-                                <rect key="frame" x="79" y="342" width="230" height="49"/>
+                                <rect key="frame" x="0.0" y="342" width="375" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="mrz-8P-6FS"/>
                                 </constraints>
@@ -40,9 +40,9 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dEe-6C-vxD" secondAttribute="bottom" constant="276" id="2xI-Xi-nE4"/>
                             <constraint firstItem="ppR-7Q-F7P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5fx-uC-OL2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dEe-6C-vxD" secondAttribute="trailing" constant="66" id="Wn7-69-W5e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dEe-6C-vxD" secondAttribute="trailing" id="Wn7-69-W5e"/>
                             <constraint firstItem="ppR-7Q-F7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="j3C-If-Yg8"/>
-                            <constraint firstItem="dEe-6C-vxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="q0m-dt-Ih8"/>
+                            <constraint firstItem="dEe-6C-vxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q0m-dt-Ih8"/>
                             <constraint firstItem="dEe-6C-vxD" firstAttribute="top" secondItem="ppR-7Q-F7P" secondAttribute="bottom" constant="8" symbolic="YES" id="rpE-vN-vd2"/>
                             <constraint firstItem="ppR-7Q-F7P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="vM6-KD-j5z"/>
                         </constraints>
